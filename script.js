@@ -2,7 +2,15 @@ const $ = s => document.querySelector(s);
 const $$ = s => [...document.querySelectorAll(s)];
 
 window.addEventListener("load", () => {
-  setTimeout(() => $("#loader")?.classList.add("hide"), 450);
+
+    setTimeout(() => {
+
+        document
+            .getElementById("loader")
+            .classList.add("loaded");
+
+    }, 800);
+
 });
 
 const nav = $(".navbar");
