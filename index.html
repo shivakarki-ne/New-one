@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Shiva Karki — Graphic Designer, Documentation and Computer Skills Portfolio">
+  <title>Shiva Karki | Creative Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="loader"><div class="loader-ring"></div><span>Loading portfolio...</span></div>
+  <div class="progress"></div>
+
+  <header class="navbar">
+    <a href="#home" class="brand"><span>SK</span> Shiva Karki</a>
+    <button class="menu-btn" aria-label="Open menu">☰</button>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#work">Work</a>
+      <a href="#tutorials">Tutorials</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">CREATIVE • DIGITAL • DOCUMENTATION</p>
+        <h1>Hi, I'm <span>Shiva Karki.</span><br> I create useful digital work.</h1>
+        <p class="hero-text">
+          Graphic design, social-media content, documentation and practical computer work —
+          presented in one professional portfolio.
+        </p>
+        <div class="buttons">
+          <a href="#work" class="btn primary">Explore My Work ↗</a>
+          <a href="#about" class="btn ghost">More About Me</a>
+        </div>
+        <div class="mini-stats">
+          <div><strong>06+</strong><span>Core Skills</span></div>
+          <div><strong>∞</strong><span>Creative Ideas</span></div>
+          <div><strong>24/7</strong><span>Learning Mindset</span></div>
+        </div>
+      </div>
+
+      <div class="hero-photo reveal">
+        <div class="photo-frame">
+          <img src="assets/images/profile.jpg" alt="Shiva Karki profile photo"
+               onerror="this.style.display='none';this.parentElement.classList.add('photo-placeholder')">
+          <div class="photo-fallback">
+            <span>YOUR<br>PHOTO</span>
+            <small>Replace profile.jpg</small>
+          </div>
+        </div>
+        <div class="floating-card card-one">✦ Graphic Design</div>
+        <div class="floating-card card-two">▣ Documentation</div>
+        <div class="floating-card card-three">▶ Tutorials</div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-head reveal">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>A little more <span>about me.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm <strong>Shiva Karki</strong>, a BBS student interested in graphic design,
+            digital content, documentation and practical computer skills. I enjoy turning
+            ideas into clean visual designs and useful digital resources.
+          </p>
+          <p>
+            I work with Photoshop, Illustrator, Canva, Microsoft Word and Excel, and I am
+            continuously improving my design, communication and technical skills.
+          </p>
+          <p>
+            This website is also my growing digital portfolio. New designs, documents,
+            projects and tutorials can be added here over time.
+          </p>
+        </div>
+        <div class="timeline reveal">
+          <div class="timeline-item"><b>Education</b><span>BBS — Currently studying</span></div>
+          <div class="timeline-item"><b>Background</b><span>Technical education in Civil Engineering</span></div>
+          <div class="timeline-item"><b>Focus</b><span>Graphic Design • Documentation • Computer Skills</span></div>
+          <div class="timeline-item"><b>Languages</b><span>Nepali • English • Hindi</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section dark-section">
+      <div class="section-head reveal">
+        <p class="eyebrow">WHAT I DO</p>
+        <h2>Skills & <span>tools.</span></h2>
+        <p>Click a skill card to learn what I can use it for.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-card reveal" data-skill="Photoshop">
+          <div class="skill-icon">Ps</div><h3>Photoshop</h3><p>Photo editing, manipulation, posters, thumbnails and social content.</p>
+          <span class="level">Advanced</span>
+        </article>
+        <article class="skill-card reveal" data-skill="Illustrator">
+          <div class="skill-icon">Ai</div><h3>Illustrator</h3><p>Vector artwork, simple branding, icons and creative graphics.</p>
+          <span class="level">Basic</span>
+        </article>
+        <article class="skill-card reveal" data-skill="Canva">
+          <div class="skill-icon">Ca</div><h3>Canva</h3><p>Fast social posts, presentations, promotional graphics and layouts.</p>
+          <span class="level">Basic</span>
+        </article>
+        <article class="skill-card reveal" data-skill="MS Word">
+          <div class="skill-icon">W</div><h3>MS Word</h3><p>Professional documents, CVs, formatting, reports and page layouts.</p>
+          <span class="level">Good</span>
+        </article>
+        <article class="skill-card reveal" data-skill="MS Excel">
+          <div class="skill-icon">X</div><h3>MS Excel</h3><p>Tables, basic formulas, data organization and clean spreadsheets.</p>
+          <span class="level">Good</span>
+        </article>
+        <article class="skill-card reveal" data-skill="Documentation">
+          <div class="skill-icon">▤</div><h3>Documentation</h3><p>File handling, records, applications, digital organization and accuracy.</p>
+          <span class="level">Good</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <div class="section-head reveal">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>My <span>portfolio.</span></h2>
+        <p>Replace the sample cards with your real designs, documents and projects.</p>
+      </div>
+
+      <div class="filters reveal">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="design">Graphic Design</button>
+        <button class="filter" data-filter="social">Social Media</button>
+        <button class="filter" data-filter="document">Documentation</button>
+        <button class="filter" data-filter="office">MS Office</button>
+      </div>
+
+      <div class="work-grid">
+        <article class="work-card reveal" data-category="design">
+          <div class="work-image"><img src="assets/images/project-1.jpg" alt="Graphic design project" onerror="this.style.display='none'"><span>PROJECT 01</span></div>
+          <div class="work-info"><p>Graphic Design</p><h3>Creative Poster</h3><button class="view-btn" data-title="Creative Poster" data-type="Graphic Design">View Project ↗</button></div>
+        </article>
+        <article class="work-card reveal" data-category="social">
+          <div class="work-image"><img src="assets/images/project-2.jpg" alt="Social media design" onerror="this.style.display='none'"><span>PROJECT 02</span></div>
+          <div class="work-info"><p>Social Media</p><h3>Social Content Set</h3><button class="view-btn" data-title="Social Content Set" data-type="Social Media">View Project ↗</button></div>
+        </article>
+        <article class="work-card reveal" data-category="design">
+          <div class="work-image"><img src="assets/images/project-3.jpg" alt="Photo editing project" onerror="this.style.display='none'"><span>PROJECT 03</span></div>
+          <div class="work-info"><p>Photo Editing</p><h3>Image Manipulation</h3><button class="view-btn" data-title="Image Manipulation" data-type="Photo Editing">View Project ↗</button></div>
+        </article>
+        <article class="work-card reveal" data-category="document">
+          <div class="work-image"><img src="assets/images/project-4.jpg" alt="Documentation project" onerror="this.style.display='none'"><span>PROJECT 04</span></div>
+          <div class="work-info"><p>Documentation</p><h3>Professional Document</h3><button class="view-btn" data-title="Professional Document" data-type="Documentation">View Project ↗</button></div>
+        </article>
+        <article class="work-card reveal" data-category="office">
+          <div class="work-image"><img src="assets/images/project-5.jpg" alt="Excel project" onerror="this.style.display='none'"><span>PROJECT 05</span></div>
+          <div class="work-info"><p>MS Excel</p><h3>Data & Spreadsheet</h3><button class="view-btn" data-title="Data & Spreadsheet" data-type="MS Excel">View Project ↗</button></div>
+        </article>
+        <article class="work-card reveal" data-category="social">
+          <div class="work-image"><img src="assets/images/project-6.jpg" alt="Thumbnail design" onerror="this.style.display='none'"><span>PROJECT 06</span></div>
+          <div class="work-info"><p>Social Media</p><h3>Video Thumbnail</h3><button class="view-btn" data-title="Video Thumbnail" data-type="Social Media">View Project ↗</button></div>
+        </article>
+      </div>
+    </section>
+
+    <section id="tutorials" class="section dark-section">
+      <div class="section-head reveal">
+        <p class="eyebrow">LEARN WITH ME</p>
+        <h2>Tutorials & <span>videos.</span></h2>
+        <p>Add your YouTube tutorial links below. The cards are ready for your future videos.</p>
+      </div>
+      <div class="tutorial-grid">
+        <article class="tutorial-card reveal">
+          <div class="video-box"><div class="play">▶</div><span>YOUTUBE VIDEO 01</span></div>
+          <div class="tutorial-info"><p>Photoshop</p><h3>Photoshop Tutorial</h3><a href="#" class="video-link" data-video="YOUR_YOUTUBE_VIDEO_ID">Watch Tutorial ↗</a></div>
+        </article>
+        <article class="tutorial-card reveal">
+          <div class="video-box"><div class="play">▶</div><span>YOUTUBE VIDEO 02</span></div>
+          <div class="tutorial-info"><p>MS Word</p><h3>Professional Document Tutorial</h3><a href="#" class="video-link" data-video="YOUR_YOUTUBE_VIDEO_ID">Watch Tutorial ↗</a></div>
+        </article>
+        <article class="tutorial-card reveal">
+          <div class="video-box"><div class="play">▶</div><span>YOUTUBE VIDEO 03</span></div>
+          <div class="tutorial-info"><p>MS Excel</p><h3>Excel Basics Tutorial</h3><a href="#" class="video-link" data-video="YOUR_YOUTUBE_VIDEO_ID">Watch Tutorial ↗</a></div>
+        </article>
+      </div>
+      <div class="youtube-note reveal">
+        <strong>Want more tutorials?</strong>
+        <span>Add your YouTube channel link here.</span>
+        <a href="https://www.youtube.com/" target="_blank" rel="noopener">My YouTube Channel ↗</a>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="section-head reveal">
+        <p class="eyebrow">VISUAL GALLERY</p>
+        <h2>More of my <span>work.</span></h2>
+      </div>
+      <div class="gallery-grid">
+        <div><img src="assets/images/gallery-1.jpg" alt="Gallery work 1" onerror="this.style.display='none'"><span>Gallery 01</span></div>
+        <div><img src="assets/images/gallery-2.jpg" alt="Gallery work 2" onerror="this.style.display='none'"><span>Gallery 02</span></div>
+        <div><img src="assets/images/gallery-3.jpg" alt="Gallery work 3" onerror="this.style.display='none'"><span>Gallery 03</span></div>
+        <div><img src="assets/images/gallery-4.jpg" alt="Gallery work 4" onerror="this.style.display='none'"><span>Gallery 04</span></div>
+      </div>
+    </section>
+
+    <section id="cv" class="section cv-section">
+      <div class="cv-box reveal">
+        <div><p class="eyebrow">RESUME</p><h2>Need my <span>CV?</span></h2><p>Download my latest CV or replace the PDF in the documents folder with your own.</p></div>
+        <a class="btn primary" href="assets/documents/Shiva-Karki-CV.pdf" download>Download CV ↓</a>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-grid">
+        <div class="reveal"><p class="eyebrow">LET'S CONNECT</p><h2>Have a project<br>in <span>mind?</span></h2><p>I'm open to creative projects, documentation work, digital content and learning opportunities.</p></div>
+        <div class="contact-card reveal">
+          <a href="mailto:your.email@example.com"><span>Email</span><strong>your.email@example.com</strong></a>
+          <a href="https://www.instagram.com/callme_eternal05/" target="_blank" rel="noopener"><span>Instagram</span><strong>@callme_eternal05</strong></a>
+          <a href="https://wa.me/977XXXXXXXXXX" target="_blank" rel="noopener"><span>WhatsApp</span><strong>+977 XXXXXXXXXX</strong></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div>© <span id="year"></span> Shiva Karki. All rights reserved.</div><div>Built with creativity & curiosity.</div></footer>
+
+  <div class="modal" id="projectModal">
+    <div class="modal-content"><button class="modal-close">×</button><p class="eyebrow">PROJECT</p><h2 id="modalTitle">Project</h2><p id="modalType"></p><p>Add your real project image and detailed project description here.</p></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

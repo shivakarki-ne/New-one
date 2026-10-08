@@ -1,0 +1,1 @@
+You can upload local videos here, or use YouTube links in index.html.
